@@ -1,0 +1,16 @@
+{
+  "node": {
+    "60c3e4bb12163cb79892564426949e760c59e5b17a": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/apps/frontend/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/frontend/src/actions/formActions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "submitContactForm",
+      "filename": "apps/frontend/src/actions/formActions.ts"
+    }
+  },
+  "edge": {}
+}

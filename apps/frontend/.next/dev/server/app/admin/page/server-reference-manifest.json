@@ -1,0 +1,49 @@
+{
+  "node": {
+    "0086cf89bafe10b78b40a4f47040a12a3e0df76886": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/apps/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/frontend/src/actions/authActions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/apps/frontend/src/actions/projectActions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "logoutAdmin",
+      "filename": "apps/frontend/src/actions/authActions.ts"
+    },
+    "60e20998c3a73362c652701f32d2520594a1b305e1": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/apps/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/frontend/src/actions/authActions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/apps/frontend/src/actions/projectActions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "loginAdmin",
+      "filename": "apps/frontend/src/actions/authActions.ts"
+    },
+    "404fdf6397ec028bc62a47faff7c23bab0df362a06": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/apps/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/frontend/src/actions/authActions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/apps/frontend/src/actions/projectActions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteMessage",
+      "filename": "apps/frontend/src/actions/projectActions.ts"
+    },
+    "40887ed2a63b38692d54e98f9bf27db048cac2cb4f": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/apps/frontend/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/frontend/src/actions/authActions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/apps/frontend/src/actions/projectActions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "deleteProject",
+      "filename": "apps/frontend/src/actions/projectActions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,39 +1,13 @@
 {
-  "name": "portfulio1",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "prisma": {
-    "schema": "backend/prisma/schema.prisma"
-  },
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate --schema=backend/prisma/schema.prisma && next build",
-    "start": "next start",
-    "lint": "eslint",
-    "prisma:generate": "prisma generate --schema=backend/prisma/schema.prisma",
-    "prisma:migrate": "prisma migrate dev --schema=backend/prisma/schema.prisma",
-    "prisma:studio": "prisma studio --schema=backend/prisma/schema.prisma"
-  },
-  "dependencies": {
-    "@hookform/resolvers": "^5.8.0",
-    "@prisma/client": "^5.22.0",
-    "framer-motion": "^13.1.0",
-    "lucide-react": "^1.31.0",
-    "next": "16.3.1",
-    "prisma": "^5.22.0",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "react-hook-form": "^7.85.0",
-    "zod": "^4.4.3"
+    "dev": "pnpm --parallel --filter ./apps/* dev",
+    "build": "pnpm --filter ./apps/* build",
+    "lint": "pnpm --filter ./apps/* lint"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.1",
-    "tailwindcss": "^4",
     "typescript": "^5"
   }
 }
