@@ -4,7 +4,7 @@ import type { Variants } from 'framer-motion'
 import { motion } from 'framer-motion'
 import { ArrowRight, Download, MapPin, Briefcase } from 'lucide-react'
 import Image from 'next/image'
-import AnimatedBackground from '@/components/AnimatedBackground'
+import AnimatedBackground from '@/components/ui/AnimatedBackground'
 
 const fadeLeft: Variants = {
   hidden: { opacity: 0, x: -40 },

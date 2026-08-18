@@ -1,5 +1,5 @@
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -10,7 +10,7 @@ generator client {
 model Project {
   id          Int      @id @default(autoincrement())
   title       String
-  description String   @db.Text
+  description String
   imageUrl    String?
   techStack   String
   githubUrl   String?
@@ -22,6 +22,6 @@ model ContactMessage {
   id        Int      @id @default(autoincrement())
   name      String
   email     String
-  message   String   @db.Text
+  message   String
   createdAt DateTime @default(now())
 }

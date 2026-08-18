@@ -3,7 +3,7 @@
 import { useActionState } from 'react'
 import { useFormStatus } from 'react-dom'
 import { Lock } from 'lucide-react'
-import { loginAdmin } from '@/actions/authActions'
+import { loginAdmin } from '@backend/actions/authActions'
 
 function SubmitButton() {
   const { pending } = useFormStatus()

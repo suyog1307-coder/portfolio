@@ -1,8 +1,8 @@
 import { unstable_noStore as noStore } from 'next/cache'
-import { prisma } from '@/lib/prisma'
+import { prisma } from '@backend/lib/prisma'
 import type { Project, ContactMessage } from '@prisma/client'
-import { logoutAdmin } from '@/actions/authActions'
-import { deleteProject } from '@/actions/projectActions'
+import { logoutAdmin } from '@backend/actions/authActions'
+import { deleteProject } from '@backend/actions/projectActions'
 import DeleteProjectButton from './DeleteProjectButton'
 import DeleteMessageButton from './DeleteMessageButton'
 import {

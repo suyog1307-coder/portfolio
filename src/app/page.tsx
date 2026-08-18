@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/ui/Navbar'
 import Hero from '@/components/sections/Hero'
 import About from '@/components/sections/About'
 import Projects from '@/components/sections/Projects'

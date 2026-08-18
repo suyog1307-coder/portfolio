@@ -1,5 +1,5 @@
 import { unstable_noStore as noStore } from 'next/cache'
-import { prisma } from '@/lib/prisma'
+import { prisma } from '@backend/lib/prisma'
 import { ExternalLink, FolderOpen } from 'lucide-react'
 import Link from 'next/link'
 

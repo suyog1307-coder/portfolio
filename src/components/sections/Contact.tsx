@@ -4,7 +4,7 @@ import { useActionState } from 'react'
 import { useFormStatus } from 'react-dom'
 import { motion } from 'framer-motion'
 import { Send, CheckCircle, AlertCircle } from 'lucide-react'
-import { submitContactForm } from '@/actions/formActions'
+import { submitContactForm } from '@backend/actions/formActions'
 
 function SubmitButton() {
   const { pending } = useFormStatus()
