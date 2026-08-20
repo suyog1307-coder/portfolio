@@ -2,7 +2,8 @@ import { Router } from 'express'
 import { projectController } from '../controllers/projectController'
 import { requireAdmin } from '../middleware/auth'
 
-const router = Router()
+// <-- Added explicit ': Router' type here
+const router: Router = Router()
 
 // Public
 router.get('/', projectController.getAll)

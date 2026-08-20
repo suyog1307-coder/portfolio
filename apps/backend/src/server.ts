@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import express from 'express'
+import express, { Express } from 'express' // <-- Imported Express type
 import cors from 'cors'
 
 import authRoutes from './routes/authRoutes'
@@ -7,7 +7,8 @@ import projectRoutes from './routes/projectRoutes'
 import contactRoutes from './routes/contactRoutes'
 import { errorHandler } from './middleware/errorHandler'
 
-const app = express()
+// <-- Added explicit ': Express' type here
+const app: Express = express() 
 
 // ── CORS ──────────────────────────────────────────────────────────────────────
 const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? 'http://localhost:3000')

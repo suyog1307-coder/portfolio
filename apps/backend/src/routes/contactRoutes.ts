@@ -2,7 +2,8 @@ import { Router } from 'express'
 import { contactController } from '../controllers/contactController'
 import { requireAdmin } from '../middleware/auth'
 
-const router = Router()
+// <-- Added explicit ': Router' type here
+const router: Router = Router() 
 
 // Public — submit a message
 router.post('/', contactController.create)
